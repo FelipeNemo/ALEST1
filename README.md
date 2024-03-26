@@ -15,4 +15,10 @@ Arquivo Tabletest.xlxs
 - Cubica: n^3
 - Exponencial: a^n
 
+**Esrutura de Dados**
 
+*Alocação de memória:*
+
+Contigua: É um modelo clássico de alocação de memória que atribui a um processo blocos de memória consecutivos (ou seja, blocos de memória com endereços consecutivos).
+
+Dinãmica ou por Encadeamento: É uma forma de memória volátil usada para armazenar dados temporariamente em dispositivos de computação.
