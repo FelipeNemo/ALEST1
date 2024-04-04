@@ -1,0 +1,32 @@
+**Listas lineares**
+
+Listas simples :
+
+Listas encadeadas:
+Os dados na rede estão de forma desorganizada(igual um queijo suiço), criamos a lista para 
+organizar esses dados  e otimizar as operações da aplicação com menor custo de memória possível.
+
+Nodos são conectados(encadeados) por links. Cada nodo é um objeto
+nodos são compostos por:
+
+1. Element: Representando o elemento armazenado no nodo
+2. Next/ponteiro: Aponta para o próximo nodo
+
+* exemplo: nodos podem ser produtos, pessoas ...
+
+* Uso prático: Criaremos uma classe nodo que possue um objeto(nodo).
+ Assim faremos diversas operações:
+
+ - Inserções
+ InsereInicio():Se inserirmos um nodo na primeira posição de uma lista já existente ajustamos o ponteiro para o novo head.
+ InsereFim():
+ InsereMeio():
+
+ - Remoções
+ RemoveInicio():
+ RemoveMeio():
+ RemoveFim():
+ 
+OBS: O primeiro elemento inserido é o head e o ultimo é o tail(referenciado antes do Null no código), Assim
+podemos medir o custo para fazer determinadas operações
+

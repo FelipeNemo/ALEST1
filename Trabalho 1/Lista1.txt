@@ -1,0 +1,23 @@
+Com base no livro do Goodrich cujas leituras são devidamente indicadas tanto nos slides (e aula), quanto no Moodle,  responda:
+
+1. O que são TADs? Dê 3 exemplos e descreva-os. 
+
+2. Qual a definição de Listas lineares ?
+
+3. Qual a diferença de contiguidade física e dinâmica? Cite 2 vantagens e duas desvantagens de cada uma delas. 
+
+4. Qual a definição de Lista com Arranjo? 
+
+5. Qual a desvantagem da implementação de lista com arranjo apresentada em aula? 
+
+--> Parte prática de listas com arranjo: utilize os códigos disponibilizados - ListArrayOfInteger.java
+
+1. Descreva como ocorre a inserção de um elemento de acordo com a implementação do método add(elemento). 
+
+2. Explique brevemente porque o método add(elemento) apresenta complexidade O(n. 
+
+3. Apresente o pseucódigo para o método remove(elemento)
+
+4. Qual a complexidade do método remove(elemento)? (utilize Big O). 
+
+5. Considerando os itens 3 (pseudocódigo) e 4 (análise de complexidade), implemente o método remove no código disponibilizado. 
