@@ -1,0 +1,11 @@
+Relembrando conceito de nodo:
+
+É um objeto que pode assumir qulquer forma(produto, pessoa, tasks)
+
+LISTA: 
+ ______NODO1_______     _______NODO2_________     _______NODO3_____
+HEAD | element| next |----| element| next  |----| element| next  |----||| TAIL
+
+COUNT
+                                                                  
+                                                                  
