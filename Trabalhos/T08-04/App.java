@@ -22,11 +22,11 @@ public class App {
 
         //System.out.println("Lista Vaiza? " + lista.isEmpty());
 
-    //    System.out.println("Elemento armazenado na "
-      //          + "segunda posicao da lista: " +lista.get(1));
+        System.out.println("Elemento armazenado na "
+               + "segunda posicao da lista: " +lista.get(1));
 
-//        System.out.println("Elemento armazenado na "
-//                + "ultima posicao da lista: " +lista.get(lista.size()-1));
+        System.out.println("Elemento armazenado na "
+                + "ultima posicao da lista: " +lista.get(lista.size()-1));
 
     }
 }

@@ -1,0 +1,44 @@
+Nodo Trailer?
+Exemplo de pseudocódigo
+1. nodo aux = trailer
+2. Percorrer
+3. encademaneto  - aux = aux.prev
+4. print element.prev
+Usando:
+- Metodo addI
+
+- Imprimir reverso
+ 1 declarar os nodos da estrutura
+Nodo anterior = Inicio
+Nodo atual = null
+Nodo proximo
+ 2 Percorrer até o nodo ser null
+while(atual != null){
+    atual = atual.prev;
+    System.out.println(atual.element);
+}
+ 3 Atualiza o Inicio
+ 4 Imprime
+ 5 Percorrer
+
+
+nodo H -- Nodo D -- Nodo l|prev
+ ant                        prev = null
+
+# Comportamento de Listas/ Quando e onde usar
+
+- Fila(Lista de prioridade/ordem)
+Politica: FIFO - First in First Out 
+* insere no fim
+* remove no inicio
+Exemplo: Lista de banco, 
+         lista para imprimir um arquivo,
+         lista para comprar ingresso
+
+- Pilha
+Politica: LIFO - Lats in First Out 
+* insere no inicio
+* remove no inicio
+Exemplo: Pilha de programa(Tudo que subimos na ram)
+         calculadora, 
+         Ctrl + Z
