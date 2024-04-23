@@ -1,0 +1,8 @@
+LISTA: 
+ ______NODO1_______     _______NODO2_________     _______NODO3_____
+HEAD | element| next |----| element| next  |----| element| next  |----||| TAIL
+
+COUNT
+
+Pseudo código remoção 
+Head ------ elemento|next ----- Tail

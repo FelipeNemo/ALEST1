@@ -86,12 +86,10 @@ public class LinkedListOfInteger {
      */
     //assinatura do metodo
     //public boolean isEmpty()
-
-    // Método isEmpty
     public boolean isEmpty() {
         return head == null; // Retorna true se a lista não conter elementos e se false caso contrário
     }
-}
+
 
     // 2 - implemente o método size
     /*
@@ -101,10 +99,10 @@ public class LinkedListOfInteger {
      */
     ////assinatura do metodo
     //public int size()
-
-    public int size() {
-        return
+    public int size(){ // O(1)
+        return count;
     }
+
 
 
     // 3 - implemente o método get(complexidade O(n))
@@ -126,4 +124,11 @@ public class LinkedListOfInteger {
 
     //assinatura do metodo
     //public Integer get(int index)
+    public int get(int index) { // O(1)
+        if ((index < 0) || (index >= size())) {
+            throw new IndexOutOfBoundsException("Index = " + index);
+        }
+        return lista[index];
+    }
+
 }

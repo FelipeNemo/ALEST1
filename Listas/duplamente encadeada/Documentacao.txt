@@ -1,0 +1,21 @@
+--> UTILIZE A CLASSE (e o Main) "LISTA DUPLAMENTE ENCADEADA (DoubleLinkedListOfInteger) DISPONIBILIZADOS. 
+
+1) Conforme visto em aula, implemente um método chamado "addI".
+Este método adiciona elementos no início da lista. 
+Parâmetro de entrada é o elemento a ser inserido no início na lista.
+2) Implemente um método chamado printSingle(). Método sem parâmetro de entrada e sem retorno. 
+Este método deve imprimir a lista da seguinte forma: [10, 20, 30, 40]. Nota: este método não deve conter o uso de nenhuma biblioteca adicional, como por exemplo, String Builder.
+3) Obsverve o método abaixo: 
+public void printReverse() {
+        Node current = trailer.prev;
+        while (current != trailer) {
+            System.out.print(current.element);
+            if (current.prev != trailer) {
+                System.out.print(", ");}
+            current = current.prev;
+        }
+        System.out.println();
+   }
+Aponte o(s) erro(s) encontrados e corrija de modo que o método imprima a lista duplamente encadeada na ordem inversa. 
+4) Qual a principal diferença na implementação do método printReverse em uma lista simplesmente encadeada?
+

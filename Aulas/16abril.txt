@@ -1,0 +1,23 @@
+Remoção dos elementos de uma lista simplesmente encadeada
+
+Pseudo código remov no meio:
+- Percorrer 
+- Achar nodo atual recebe next e o anterior(next para para curl next)
+- Prev aponta para o curl 
+- Deleta o elemento
+
+Importante: 
+anterior.next = aux.next
+
+Pseudo código remov no inicio e no fim:
+- Não precisa de auxiliar
+- Head fica nulo pra remover no inicio
+- Tail fica nuo para remover no fim
+
+##Listas Duplamente encadeada:
+
+- Nodos conectados por links
+OBS: O nodo é composto por |prev/element/next|
+- Acesso direto ao primeiro elemento
+- Acesso direto ao último elemento
+
